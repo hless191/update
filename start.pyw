@@ -8,7 +8,7 @@ shortcut.close()
 fl = open("update.pyw", "w")
 fl.write("""
 import urllib.request
-f = urllib.request.urlopen('LINK')#update later
+f = urllib.request.urlopen('https://raw.githubusercontent.com/hless191/update/master/real.pyw?token=AOYRMBFW4UIY5N2XRYABPM26MTWVG')
 cont = ""
 for i in f:
     cont += i.decode()

